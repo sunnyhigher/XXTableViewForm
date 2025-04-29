@@ -1,0 +1,6 @@
+framework module Pods_XXTableViewForm_Tests {
+  umbrella header "Pods-XXTableViewForm_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

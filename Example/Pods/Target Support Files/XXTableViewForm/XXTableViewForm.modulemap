@@ -1,0 +1,6 @@
+framework module XXTableViewForm {
+  umbrella header "XXTableViewForm-umbrella.h"
+
+  export *
+  module * { export * }
+}
