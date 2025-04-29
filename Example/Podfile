@@ -17,7 +17,10 @@ target 'XXTableViewForm_Example' do
   target 'XXTableViewForm_Tests' do
     inherit! :search_paths
 
-    pod 'Kiwi'
-    pod 'FBSnapshotTestCase'
+    #pod 'Kiwi'
+    #pod 'FBSnapshotTestCase'
+    pod 'Quick'
+    pod 'Nimble'
+
   end
 end

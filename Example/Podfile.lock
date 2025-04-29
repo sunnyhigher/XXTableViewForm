@@ -1,31 +1,27 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - Kiwi (3.0.0)
+  - Nimble (10.0.0)
+  - Quick (5.0.1)
   - XXTableViewForm (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
-  - Kiwi
+  - Nimble
+  - Quick
   - XXTableViewForm (from `../`)
 
 SPEC REPOS:
   trunk:
-    - FBSnapshotTestCase
-    - Kiwi
+    - Nimble
+    - Quick
 
 EXTERNAL SOURCES:
   XXTableViewForm:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  Kiwi: fbeafef0f00e4d8f7dcb3420a4930afe70af77f7
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
   XXTableViewForm: 34d603440e82903f57987b53421fb7c448e8ece1
 
-PODFILE CHECKSUM: 7c51a3a3351a69ab5816741bd47bdbb51b0669c6
+PODFILE CHECKSUM: b1a50c866447134014e8bc175d9a8faaa232e432
 
 COCOAPODS: 1.16.2
